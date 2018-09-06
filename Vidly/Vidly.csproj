@@ -230,9 +230,42 @@
     <Compile Include="Migrations\201809051551118_PopulateNamesToMembershipTypes.Designer.cs">
       <DependentUpon>201809051551118_PopulateNamesToMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809060828488_AddBirthdatetoCustomerModel.cs" />
+    <Compile Include="Migrations\201809060828488_AddBirthdatetoCustomerModel.Designer.cs">
+      <DependentUpon>201809060828488_AddBirthdatetoCustomerModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809060832530_PopulateBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\201809060832530_PopulateBirthdateToCustomer.Designer.cs">
+      <DependentUpon>201809060832530_PopulateBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809060922081_ChangeDateTimeToNullable.cs" />
+    <Compile Include="Migrations\201809060922081_ChangeDateTimeToNullable.Designer.cs">
+      <DependentUpon>201809060922081_ChangeDateTimeToNullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809060936377_AddedGenreModelandDetailsToMovieModel.cs" />
+    <Compile Include="Migrations\201809060936377_AddedGenreModelandDetailsToMovieModel.Designer.cs">
+      <DependentUpon>201809060936377_AddedGenreModelandDetailsToMovieModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809060942275_AddDataToMovieTable.cs" />
+    <Compile Include="Migrations\201809060942275_AddDataToMovieTable.Designer.cs">
+      <DependentUpon>201809060942275_AddDataToMovieTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809060952435_PopulateGenretable.cs" />
+    <Compile Include="Migrations\201809060952435_PopulateGenretable.Designer.cs">
+      <DependentUpon>201809060952435_PopulateGenretable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809060958396_PopulateMovieWithGenres.cs" />
+    <Compile Include="Migrations\201809060958396_PopulateMovieWithGenres.Designer.cs">
+      <DependentUpon>201809060958396_PopulateMovieWithGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809061143080_ChangeDateValuesInMovies.cs" />
+    <Compile Include="Migrations\201809061143080_ChangeDateValuesInMovies.Designer.cs">
+      <DependentUpon>201809061143080_ChangeDateValuesInMovies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -310,6 +343,7 @@
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -348,6 +382,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809051551118_PopulateNamesToMembershipTypes.resx">
       <DependentUpon>201809051551118_PopulateNamesToMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809060828488_AddBirthdatetoCustomerModel.resx">
+      <DependentUpon>201809060828488_AddBirthdatetoCustomerModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809060832530_PopulateBirthdateToCustomer.resx">
+      <DependentUpon>201809060832530_PopulateBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809060922081_ChangeDateTimeToNullable.resx">
+      <DependentUpon>201809060922081_ChangeDateTimeToNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809060936377_AddedGenreModelandDetailsToMovieModel.resx">
+      <DependentUpon>201809060936377_AddedGenreModelandDetailsToMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809060942275_AddDataToMovieTable.resx">
+      <DependentUpon>201809060942275_AddDataToMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809060952435_PopulateGenretable.resx">
+      <DependentUpon>201809060952435_PopulateGenretable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809060958396_PopulateMovieWithGenres.resx">
+      <DependentUpon>201809060958396_PopulateMovieWithGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809061143080_ChangeDateValuesInMovies.resx">
+      <DependentUpon>201809061143080_ChangeDateValuesInMovies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
