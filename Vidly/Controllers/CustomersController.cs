@@ -60,7 +60,7 @@ namespace Vidly.Controllers
                 customerInDb.Name = customer.Name;
                 customerInDb.Birthdate = customer.Birthdate;
                 customerInDb.MembershipTypeId = customer.MembershipTypeId;
-                customerInDb.isSubscribedToNewsletter = customer.isSubscribedToNewsletter;
+                customerInDb.IsSubscribedToNewsletter = customer.IsSubscribedToNewsletter;
             }
 
             _context.SaveChanges();
